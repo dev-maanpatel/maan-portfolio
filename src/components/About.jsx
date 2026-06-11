@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 
 const info = [
   ['Birthday', '14 April 2003'],
-  ['Age', '22'],
+  ['Age', '23'],
   ['Website', 'maan-portfolio.dev'],
   ['Degree', 'Bachelor'],
   ['Phone', '+91 63 51 97 19 18'],
