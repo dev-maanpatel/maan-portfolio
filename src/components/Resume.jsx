@@ -1,4 +1,4 @@
-import { education, experience, resumeSummary, timeline } from '../data/portfolio.js'
+import { certifications, education, experience, resumeSummary, timeline } from '../data/portfolio.js'
 
 function Resume() {
   return (
@@ -26,7 +26,7 @@ function Resume() {
             </div>
           </aside>
 
-          <div className="resume-columns">
+          <div className="">
             <div className="resume-column">
               <h3 className="resume-column-title">Education</h3>
               <div className="timeline resume-line">
@@ -40,8 +40,22 @@ function Resume() {
                 ))}
               </div>
             </div>
-
-            <div className="resume-column">
+            <div>
+              <div className="resume-column">
+                <h3 className="resume-column-title">Certifications</h3>
+                <div className="timeline resume-line">
+                    {certifications.map((item) => (
+                  <article className="timeline-item" key={item.title}>
+                    <span>{item.year}</span>
+                    <h3>{item.title}</h3>
+                    <p className="timeline-place">{item.place}</p>
+                    <p>{item.desc}</p>
+                  </article>
+                ))}
+                </div>
+              </div>
+            </div>
+            <div className="">
               <h3 className="resume-column-title">Experience</h3>
               <div className="timeline resume-line">
                 {experience.map((item) => (

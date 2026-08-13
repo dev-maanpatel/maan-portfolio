@@ -3,9 +3,9 @@ import { useEffect, useRef, useState } from 'react'
 const info = [
   ['Birthday', '14 April 2003'],
   ['Age', '23'],
-  ['Website', 'maan-portfolio.dev'],
+  // ['Website', 'https://maan-portfolio-xi.vercel.app/'],
   ['Degree', 'Bachelor'],
-  ['Phone', '+91 63 51 97 19 18'],
+  ['Phone', '+91 63519 71918'],
   ['Email', 'dev.maanpatel1@gmail.com'],
   ['City', 'Surat, Gujarat'],
   ['Freelance', 'Available']
@@ -13,7 +13,7 @@ const info = [
 
 const stats = [
   { label: 'Projects', value: 15, suffix: '+' },
-  { label: 'Skills', value: 10, suffix: '+' },
+  { label: 'Technologies Used', value: 10, suffix: '+' },
   { label: 'Responsive', value: 100, suffix: '%' }
 ]
 

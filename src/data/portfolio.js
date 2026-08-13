@@ -8,7 +8,7 @@ export const socials = {
 }
 
 export const skills = [
-  'HTML5', 'CSS3', 'JavaScript', 'React.js', 'Redux', 'Node.js', 'Express.js', 'MongoDB', 'Bootstrap', 'Tailwind CSS', 'Git', 'GitHub', 'API Integration', 'Responsive UI', 'Vercel'
+  'HTML5', 'CSS3', 'JavaScript', 'React.js', 'Redux', 'Node.js', 'Express.js', 'MongoDB', 'Bootstrap', 'AI ', 'Git', 'GitHub', 'API Integration', 'Responsive UI', 'Vercel'
 ]
 
 export const resumeSummary = {
@@ -26,6 +26,9 @@ export const education = [
     place: 'Veer Narmad South Gujarat University',
     desc: 'Completed commerce graduation with strong understanding of business, communication and professional workflow.'
   },
+]
+
+export const certifications = [
   {
     year: '2024 - 2025',
     title: 'Full Stack Development',
@@ -45,14 +48,14 @@ export const experience = [
 
 export const timeline = [
   {
-    year: '2026',
-    title: 'React & Full Stack Developer',
-    desc: 'Building modern React interfaces, API based projects, dashboards, portfolios and responsive websites.'
+    year: 'backend',
+    title: 'Node.js - REST API',
+    desc: 'Developed REST APIs using Node.js and Express.js with CRUD operations, authentication, middleware, MongoDB integration, and MVC architecture.'
   },
   {
     year: 'Frontend',
-    title: 'HTML, CSS, JavaScript Projects',
-    desc: 'Created landing pages, ecommerce layouts, restaurant websites, custom sections, JavaScript forms and calculator apps.'
+    title: 'React.js',
+    desc: 'Developed component-based applications with React.js, building reusable UI components, dashboards, portfolios, and responsive applications.'
   },
   {
     year: 'Deploy',

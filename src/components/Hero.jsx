@@ -7,7 +7,7 @@ function Hero() {
         <div className="hero-content">
           <p className="eyebrow">Hello, I am</p>
           <h1 className="animated-name"><span>Maan</span> <span>Patel</span></h1>
-          <h2>React & Full Stack Web Developer</h2>
+          <h2>MERN Stack Developer</h2>
           <p className="hero-text">
             I build clean, responsive and stylish websites with particles background, modern UI, project showcases and practical coding logic.
           </p>
