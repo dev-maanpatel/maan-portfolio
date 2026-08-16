@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import { projects } from '../data/portfolio.js'
 
-const filters = ['All', 'React', 'Website', 'Section', 'JavaScript']
+const filters = ['All', 'React', 'backend', 'HTML/Css',]
 
 function Projects() {
   const [active, setActive] = useState('All')

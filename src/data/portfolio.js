@@ -14,8 +14,8 @@ export const skills = [
 export const resumeSummary = {
   name: 'Maan Patel',
   address: '157 Ashirwad Township, Udhna, Surat',
-  phone: '+91 63 51 97 19 18',
-  email: 'maanrnw@gmail.com',
+  phone: '+91 63519 71918',
+  email: 'dev.maanpatel1@gmail.com',
   text: 'As a passionate and motivated beginner web developer, I specialize in creating dynamic, user-friendly websites. I am eager to learn, grow my skills, and deliver high-quality web experiences.'
 }
 
@@ -84,6 +84,26 @@ export const testimonials = [
 
 export const projects = [
   {
+    title: 'ER diagram',
+    type: 'Backend Project',
+    category: 'backend',
+    image: '/projects/er-diagram.png',
+    desc: 'Designed a structured ER diagram with tables, keys, and database relationships',
+    tech: ['MongoDB', 'MySQL' , 'Database' ],
+    live: 'https://github.com/dev-maanpatel/er-diagram-api',
+    github: 'https://github.com/dev-maanpatel/er-diagram-api'
+  },
+  {
+    title: 'Admin Panel ',
+    type: 'Backend Project',
+    category: 'backend',
+    image: '/projects/adminpanel.png',
+    desc: 'Backend project for managing products and categories with a clean, responsive interface.',
+    tech: ['Node.js', 'Express.js', 'JWT'],
+    live: 'https://github.com/dev-maanpatel/deskapp-product-category-alert',
+    github: 'https://github.com/dev-maanpatel/deskapp-product-category-alert'
+  },
+  {
     title: 'Zomato API Project',
     type: 'API / React Project',
     category: 'React',
@@ -96,7 +116,7 @@ export const projects = [
   {
     title: 'Watch Ecommerce Store',
     type: 'Website Project',
-    category: 'Website',
+    category: 'HTML/Css',
     image: '/projects/watch-website.png',
     desc: 'Responsive ecommerce website with product sections, modern layout and clean landing pages.',
     tech: ['HTML', 'CSS', 'JavaScript'],
@@ -106,7 +126,7 @@ export const projects = [
   {
     title: 'Aero Page Website',
     type: 'Website Project',
-    category: 'Website',
+    category: 'HTML/Css',
     image: '/projects/aeropage.png',
     desc: 'Modern landing page with professional layout, image sections and responsive design.',
     tech: ['HTML', 'CSS', 'Bootstrap'],
@@ -116,7 +136,7 @@ export const projects = [
   {
     title: 'Restaurant Website',
     type: 'Website Project',
-    category: 'Website',
+    category: 'HTML/Css',
     image: '/projects/Restaurant1.png',
     desc: 'Restaurant landing website with menu style blocks, image layout and responsive UI.',
     tech: ['HTML', 'CSS', 'JavaScript'],
@@ -126,43 +146,33 @@ export const projects = [
   {
     title: 'Sandbox Website',
     type: 'Website Project',
-    category: 'Website',
+    category: 'HTML/Css',
     image: '/projects/sandbox.png',
     desc: 'Clean multipurpose website section design inspired by modern agency layouts.',
     tech: ['HTML', 'CSS', 'Bootstrap'],
     live: 'https://maan12-web.github.io/sandbox/',
     github: 'https://github.com/maan12-web/sandbox'
   },
-  {
-    title: 'Doob Section',
-    type: 'Section Project',
-    category: 'Section',
-    image: '/projects/doob.png',
-    desc: 'Pixel-perfect section practice with clean spacing, layout and responsive behavior.',
-    tech: ['HTML', 'CSS'],
-    live: 'https://maan12-web.github.io/doob-section/',
-    github: 'https://github.com/maan12-web/doob-section'
-  },
-  {
-    title: 'JavaScript Form',
-    type: 'JavaScript Project',
-    category: 'JavaScript',
-    image: '/projects/form-js.png',
-    desc: 'Interactive form project focused on DOM handling, validation practice and UI logic.',
-    tech: ['HTML', 'CSS', 'JavaScript'],
-    live: 'https://dev-maanpatel.github.io/js-project-2/',
-    github: 'https://github.com/dev-maanpatel/js-project-2'
-  },
-  {
-    title: 'JavaScript Calculator',
-    type: 'JavaScript Project',
-    category: 'JavaScript',
-    image: '/projects/calc-js.png',
-    desc: 'Calculator app with button events, calculation logic and simple clean interface.',
-    tech: ['HTML', 'CSS', 'JavaScript'],
-    live: 'https://dev-maanpatel.github.io/js-project-1/',
-    github: 'https://github.com/dev-maanpatel/js-project-1'
-  }
+  // {
+  //   title: 'JavaScript Form',
+  //   type: 'JavaScript Project',
+  //   category: 'JavaScript',
+  //   image: '/projects/form-js.png',
+  //   desc: 'Interactive form project focused on DOM handling, validation practice and UI logic.',
+  //   tech: ['HTML', 'CSS', 'JavaScript'],
+  //   live: 'https://dev-maanpatel.github.io/js-project-2/',
+  //   github: 'https://github.com/dev-maanpatel/js-project-2'
+  // },
+  // {
+  //   title: 'JavaScript Calculator',
+  //   type: 'JavaScript Project',
+  //   category: 'JavaScript',
+  //   image: '/projects/calc-js.png',
+  //   desc: 'Calculator app with button events, calculation logic and simple clean interface.',
+  //   tech: ['HTML', 'CSS', 'JavaScript'],
+  //   live: 'https://dev-maanpatel.github.io/js-project-1/',
+  //   github: 'https://github.com/dev-maanpatel/js-project-1'
+  // }
 ]
 
 export const services = [
