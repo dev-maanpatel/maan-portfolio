@@ -10,7 +10,9 @@ This portfolio showcases my skills, experience, projects, services, resume, and 
 
 🌐 **Live Demo:** https://maan-portfolio-xi.vercel.app/
 
-💻 **GitHub:** https://github.com/dev-maanpatel
+💻 **GitHub Repository:** https://github.com/dev-maanpatel/maan-portfolio
+
+💻 **GitHub Profile:** https://github.com/dev-maanpatel
 
 🔗 **LinkedIn:** https://www.linkedin.com/in/patel-maan-530581342/
 
@@ -172,33 +174,43 @@ Visitors can use the contact section to connect for development opportunities, c
 
 ---
 
-## ⚙️ Installation
+# 🚀 How to Run This Project
 
-### 1. Clone the repository
+Follow these steps to run the portfolio on your local machine.
 
-```bash
-git clone https://github.com/dev-maanpatel/your-portfolio-repository.git
-```
-
-### 2. Open the project
+### 1. Clone the Repository
 
 ```bash
-cd maan-portfolio-main
+git clone https://github.com/dev-maanpatel/maan-portfolio.git
 ```
 
-### 3. Install dependencies
+### 2. Open the Project
+
+```bash
+cd maan-portfolio
+```
+
+### 3. Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 4. Start development server
+### 4. Start Development Server
 
 ```bash
 npm run dev
 ```
 
-Vite will display the local development URL in your terminal.
+Vite will display a local development URL similar to:
+
+```text
+http://localhost:5173/
+```
+
+Open the URL in your browser.
+
+🎉 Your portfolio should now be running locally!
 
 ---
 
@@ -220,9 +232,12 @@ npm run preview
 
 ## 🌐 Deployment
 
-The project is ready to deploy on platforms such as **Vercel**.
+The portfolio is currently deployed using **Vercel**.
 
-Typical deployment settings:
+🌐 **Live Website:**
+https://maan-portfolio-xi.vercel.app/
+
+Typical Vercel deployment settings:
 
 ```text
 Framework Preset: Vite
@@ -284,6 +299,16 @@ I enjoy turning ideas into clean and functional digital experiences.
 
 ---
 
+## 🔗 Important Links
+
+🌐 **Portfolio:**
+https://maan-portfolio-xi.vercel.app/
+
+💻 **Source Code:**
+https://github.com/dev-maanpatel/maan-portfolio
+
+---
+
 ## ⭐ Support
 
 If you like this portfolio, consider giving the repository a **⭐ star on GitHub**.
@@ -297,13 +322,3 @@ It helps support the project and motivates me to continue building and improving
 This project is created for personal portfolio and educational purposes.
 
 You may use the project as inspiration for your own portfolio, but please customize the content, branding, images, and personal information before publishing.
-
----
-
-<p align="center">
-  Made with ❤️ using React.js
-</p>
-
-<p align="center">
-  © 2026 Maan Patel
-</p>
