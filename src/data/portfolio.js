@@ -1,4 +1,14 @@
-export const navLinks = ['Home', 'About', 'Skills', 'Resume', 'Projects', 'Services', 'Testimonials', 'Blog', 'Contact']
+export const navLinks = [
+  'Home',
+  'About',
+  'Skills',
+  'Resume',
+  'Projects',
+  'Services',
+  'Testimonials',
+  'Blog',
+  'Contact'
+]
 
 export const socials = {
   instagram: 'https://www.instagram.com/maanpatel1404/?hl=en',
@@ -8,7 +18,21 @@ export const socials = {
 }
 
 export const skills = [
-  'HTML5', 'CSS3', 'JavaScript', 'React.js', 'Redux', 'Node.js', 'Express.js', 'MongoDB', 'Bootstrap', 'AI ', 'Git', 'GitHub', 'API Integration', 'Responsive UI', 'Vercel'
+  'HTML5',
+  'CSS3',
+  'JavaScript',
+  'React.js',
+  'Redux',
+  'Node.js',
+  'Express.js',
+  'MongoDB',
+  'Bootstrap',
+  'AI',
+  'Git',
+  'GitHub',
+  'API Integration',
+  'Responsive UI',
+  'Vercel'
 ]
 
 export const resumeSummary = {
@@ -25,7 +49,7 @@ export const education = [
     title: 'Bachelor of Commerce',
     place: 'Veer Narmad South Gujarat University',
     desc: 'Completed commerce graduation with strong understanding of business, communication and professional workflow.'
-  },
+  }
 ]
 
 export const certifications = [
@@ -34,15 +58,6 @@ export const certifications = [
     title: 'Full Stack Development',
     place: 'Red and White Multimedia Education',
     desc: 'Learning frontend and backend development with HTML, CSS, JavaScript, React, Node.js, MongoDB, GitHub and deployment.'
-  }
-]
-
-export const experience = [
-  {
-    year: '2021 - 2024',
-    title: 'Senior Accountant',
-    place: 'Experion, Surat, Gujarat',
-    desc: 'Managed client accounts, coordinated communication, supported production material planning and handled account budgets ranging from $2,000 - $25,000.'
   }
 ]
 
@@ -89,12 +104,12 @@ export const projects = [
     category: 'backend',
     image: '/projects/er-diagram.png',
     desc: 'Designed a structured ER diagram with tables, keys, and database relationships',
-    tech: ['MongoDB', 'MySQL' , 'Database' ],
+    tech: ['MongoDB', 'MySQL', 'Database'],
     live: 'https://github.com/dev-maanpatel/er-diagram-api',
     github: 'https://github.com/dev-maanpatel/er-diagram-api'
   },
   {
-    title: 'Admin Panel ',
+    title: 'Admin Panel',
     type: 'Backend Project',
     category: 'backend',
     image: '/projects/adminpanel.png',
@@ -152,7 +167,8 @@ export const projects = [
     tech: ['HTML', 'CSS', 'Bootstrap'],
     live: 'https://maan12-web.github.io/sandbox/',
     github: 'https://github.com/maan12-web/sandbox'
-  },
+  }
+
   // {
   //   title: 'JavaScript Form',
   //   type: 'JavaScript Project',
@@ -163,6 +179,7 @@ export const projects = [
   //   live: 'https://dev-maanpatel.github.io/js-project-2/',
   //   github: 'https://github.com/dev-maanpatel/js-project-2'
   // },
+
   // {
   //   title: 'JavaScript Calculator',
   //   type: 'JavaScript Project',
@@ -192,9 +209,18 @@ export const blogs = [
     tag: 'Performance',
     image: '/projects/PerformanceOptimization.jpg',
     content: [
-      { heading: 'The Importance of Website Performance Optimization', text: 'Fast websites keep users engaged, reduce bounce rate and make every section feel smooth. Good performance also helps SEO and improves the overall professional feel of a portfolio.' },
-      { heading: 'Simple Optimization Steps', text: 'Compress images, use lazy loading, remove unused CSS, minify code, split large components and avoid unnecessary animations on mobile devices.' },
-      { heading: 'Tools I Use', text: 'Chrome Lighthouse, browser DevTools, Vercel analytics and manual mobile testing help find layout shifts, slow assets and oversized images.' }
+      {
+        heading: 'The Importance of Website Performance Optimization',
+        text: 'Fast websites keep users engaged, reduce bounce rate and make every section feel smooth. Good performance also helps SEO and improves the overall professional feel of a portfolio.'
+      },
+      {
+        heading: 'Simple Optimization Steps',
+        text: 'Compress images, use lazy loading, remove unused CSS, minify code, split large components and avoid unnecessary animations on mobile devices.'
+      },
+      {
+        heading: 'Tools I Use',
+        text: 'Chrome Lighthouse, browser DevTools, Vercel analytics and manual mobile testing help find layout shifts, slow assets and oversized images.'
+      }
     ]
   },
   {
@@ -204,9 +230,18 @@ export const blogs = [
     tag: 'Portfolio',
     image: '/projects/web-developer-portfolio.png',
     content: [
-      { heading: 'Why Build a Portfolio?', text: 'A portfolio is the best place to show real projects, skills, live links and source code in one professional website.' },
-      { heading: 'Designing the Layout', text: 'I start with a strong hero section, then add about, skills, resume, projects, blog and contact sections with consistent spacing.' },
-      { heading: 'Deployment', text: 'After testing responsiveness, I deploy the project and add GitHub plus live buttons so visitors can view both code and demo.' }
+      {
+        heading: 'Why Build a Portfolio?',
+        text: 'A portfolio is the best place to show real projects, skills, live links and source code in one professional website.'
+      },
+      {
+        heading: 'Designing the Layout',
+        text: 'I start with a strong hero section, then add about, skills, resume, projects, blog and contact sections with consistent spacing.'
+      },
+      {
+        heading: 'Deployment',
+        text: 'After testing responsiveness, I deploy the project and add GitHub plus live buttons so visitors can view both code and demo.'
+      }
     ]
   },
   {
@@ -216,9 +251,18 @@ export const blogs = [
     tag: 'GitHub',
     image: '/projects/vcs-blog-what-is-version-control.webp',
     content: [
-      { heading: 'Key Concepts', text: 'Git stores commits, branches and changes so developers can safely improve code without losing previous versions.' },
-      { heading: 'Benefits', text: 'Version control makes collaboration easy, helps rollback mistakes and keeps a clean project timeline.' },
-      { heading: 'In Practice', text: 'For portfolio projects, GitHub is useful because recruiters or clients can check source code and live project links.' }
+      {
+        heading: 'Key Concepts',
+        text: 'Git stores commits, branches and changes so developers can safely improve code without losing previous versions.'
+      },
+      {
+        heading: 'Benefits',
+        text: 'Version control makes collaboration easy, helps rollback mistakes and keeps a clean project timeline.'
+      },
+      {
+        heading: 'In Practice',
+        text: 'For portfolio projects, GitHub is useful because recruiters or clients can check source code and live project links.'
+      }
     ]
   },
   {
@@ -228,9 +272,18 @@ export const blogs = [
     tag: 'Client Work',
     image: '/projects/clienttips.png',
     content: [
-      { heading: 'Understand the Client Vision', text: 'Before starting, ask about goals, references, required pages, colors, content and deadline expectations.' },
-      { heading: 'Maintain Clear Communication', text: 'Share progress regularly, explain design choices and confirm major changes before development goes too far.' },
-      { heading: 'Deliver Professionally', text: 'Test the website, provide final zip/source files, explain how to run it and share deployment links.' }
+      {
+        heading: 'Understand the Client Vision',
+        text: 'Before starting, ask about goals, references, required pages, colors, content and deadline expectations.'
+      },
+      {
+        heading: 'Maintain Clear Communication',
+        text: 'Share progress regularly, explain design choices and confirm major changes before development goes too far.'
+      },
+      {
+        heading: 'Deliver Professionally',
+        text: 'Test the website, provide final zip/source files, explain how to run it and share deployment links.'
+      }
     ]
   }
 ]
