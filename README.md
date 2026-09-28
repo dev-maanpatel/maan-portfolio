@@ -8,7 +8,7 @@ This portfolio showcases my skills, experience, projects, services, resume, and 
 
 ## 🚀 Live Portfolio
 
-🌐 **Live Demo:** https://maan-portfolio-xi.vercel.app/
+🌐 **Live Demo:** https://maanpatel.online/
 
 💻 **GitHub Repository:** https://github.com/dev-maanpatel/maan-portfolio
 
